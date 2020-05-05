@@ -1,0 +1,77 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+html {
+  background: #f7f7f7;
+}
+
+body {
+  background: white;
+  max-width: 1000px;
+  font-family: 'Sen', sans-serif;
+  /* font-family: Tahoma, Geneva, sans-serif; */
+  margin: 0 auto;
+}
+
+main {
+
+}
+
+header, footer {
+  background: #333a40;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+}
+
+header h1, nav {
+  display: inline-block;
+}
+
+main {
+  width: 680px;
+  display: inline-block;
+}
+
+aside {
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#name {
+  background: purple;
+}
+
+#email {
+  background: grey;
+}
+
+#message {
+  background: gold;
+}
+
+.item {
+  background: LightGrey;
+  border: 1px solid grey;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
