@@ -47,21 +47,22 @@ aside {
 }
 
 #name {
-  background: purple;
+
 }
 
 #email {
-  background: grey;
+
 }
 
 #message {
-  background: gold;
+
 }
 
 .item {
-  background: LightGrey;
+  box-sizing: border-box;
+  background: powderblue;
   border: 1px solid grey;
-  width: 200px;
+  width: 210px;
   margin: 5px;
   padding: 5px;
   display: inline-block;
