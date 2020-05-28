@@ -11,6 +11,7 @@ body {
   font-family: 'Sen', sans-serif;
   /* font-family: Tahoma, Geneva, sans-serif; */
   margin: 0 auto;
+  color: rgb(49, 48, 48);
 }
 
 main {
@@ -27,6 +28,20 @@ ul {
   padding: 0;
 }
 
+li {
+  list-style: none;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0e69e9;
+}
+
 header li {
   display: inline;
 }
@@ -38,12 +53,15 @@ header h1, nav {
 main {
   width: 680px;
   display: inline-block;
+  padding: 10px;
 }
 
 aside {
   width: 220px;
   display: inline-block;
   vertical-align: top;
+  padding: 10px;
+
 }
 
 #name {
@@ -60,7 +78,6 @@ aside {
 
 .item {
   box-sizing: border-box;
-  background: powderblue;
   border: 1px solid grey;
   width: 210px;
   margin: 5px;
@@ -75,4 +92,9 @@ aside {
 
 img {
   max-width: 100%;
+}
+
+.button:last-of-type {
+  background-color: #0e69e9;
+  color: white;
 }
