@@ -64,6 +64,10 @@ aside {
 
 }
 
+img {
+  max-width: 100%;
+}
+
 #name {
 
 }
@@ -75,6 +79,43 @@ aside {
 #message {
 
 }
+
+#Cart {
+  position:
+  top:
+  left:
+}
+
+#backTop {
+  animation-name: out;
+  animation-direction: reverse;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0e69e9;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 2px;
+}
+
+#backTop:hover {
+  animation-name: out;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
+
+
+/* animation code for fading in and out */
+@keyframes out {
+  from {background-color: #0e69e9;}
+  to {background-color: lightblue;}
+}
+
+
 
 .item {
   box-sizing: border-box;
@@ -90,11 +131,20 @@ aside {
   display: inline-block;
 }
 
-img {
-  max-width: 100%;
-}
 
 .button:last-of-type {
   background-color: #0e69e9;
   color: white;
+}
+
+
+/* Product detail page */
+.product-detail {
+  width: 660px;
+
+}
+
+.product-detail img {
+  max-width: 50%;
+  float: left;
 }
